@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header'
+import MainVisual from './component/MainVisual';
+import MainContent from './component/MainContent';
+import Portfolio from './component/Portfolio';
+import Solution from './component/Solution';
+import Promotion from './component/Promotion';
+import News from './component/News';
+import Footer from './component/Footer';
+import Totop from './component/Totop';
+import Popup from './component/Popup';
+import Wrapper from './component/Wrapper';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <Header />
+      <main>
+        <MainVisual />
+        <MainContent />
+        <Portfolio />
+        <News />
+        <Promotion />
+
+      </main>
+      <Footer />
+      <Totop />
+    </Wrapper>
   );
 }
 
