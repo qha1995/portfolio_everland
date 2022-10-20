@@ -1,6 +1,4 @@
 .Subpage {
-    overflow-x: hidden;
-
 
     .sub {
         display: flex;
@@ -24,11 +22,9 @@
         background: #f4f4f4;
         text-align: right;
         line-height: 40px;
-        padding: 0 30px;
     }
 
 }
-
 
 .aside__lnb {
     font-size: 15px;
@@ -95,8 +91,8 @@
 
     .tb_org02 {
         width: 100%;
-        border-top: 2px solid #f5a100;
-        border-bottom: 1px solid #f5a100;
+        border-top: 2px solid #ff6300;
+        border-bottom: 1px solid #ff6300;
         margin: 0 0 50px 0;
 
         thead {
@@ -109,7 +105,7 @@
             }
 
             .bdOrg {
-                border-bottom: 1px solid #f5a100;
+                border-bottom: 1px solid #ff6300;
             }
         }
 
@@ -123,7 +119,7 @@
             }
 
             .bdOrg {
-                border-bottom: 1px solid #f5a100;
+                border-bottom: 1px solid #ff6300;
             }
 
             .td_listL {
@@ -143,7 +139,6 @@
 
     .mt10 {
         margin-top: 10px !important;
-
     }
 
     .tit {
@@ -212,7 +207,6 @@
         display: flex;
         gap: 15px;
         margin: 0 0 50px 0;
-        width: 100vw;
 
 
 
@@ -251,6 +245,8 @@
     }
 
 }
+
+
 
 
 
@@ -525,5 +521,8 @@
             }
         }
 
+
     }
+
+
 }
