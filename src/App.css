@@ -517,7 +517,7 @@
 }
 
 .Portfolio {
-  background: url(../public/assets/images/section1_bg.jpg) repeat-x;
+  background: url(../public/assets/images/section1_bg.jpg) no-repeat center top/cover;
 
   color: var(--lc);
 
@@ -662,7 +662,7 @@
 
 
 .Promotion {
-  background: url(../public/assets/images/section4_bg.jpg) no-repeat left bottom;
+  background: url(../public/assets/images/section4_bg.jpg) no-repeat left bottom/cover;
   color: var(--lc);
 }
 
@@ -921,6 +921,12 @@
 .mopen {
   display: none;
 }
+
+.Wrapper {
+
+  overflow-x: hidden;
+}
+
 
 @media (max-width: 768px) {
   .Wrapper {
