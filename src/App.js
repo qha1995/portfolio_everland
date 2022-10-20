@@ -3,7 +3,6 @@ import Header from './component/Header'
 import MainVisual from './component/MainVisual';
 import MainContent from './component/MainContent';
 import Portfolio from './component/Portfolio';
-import Solution from './component/Solution';
 import Promotion from './component/Promotion';
 import News from './component/News';
 import Footer from './component/Footer';
@@ -16,6 +15,8 @@ import Sub03 from './pages/Sub03';
 import Sub04 from './pages/Sub04';
 import { Route, Routes } from 'react-router-dom';
 import Main from './component/Main';
+import Mopen from './component/Mopen';
+import { useState } from 'react';
 
 const App = () => {
   const MAINSLIDRE = [
@@ -24,9 +25,10 @@ const App = () => {
     { id: 2, tit: "즐길거리", con: "어트랙션 즐기기 추천 코스 ", des: "기상 상황 및 시즌에 따라 어트랙션 및 공연 관람이 변동될 수 있습니다. 에버랜드 App에서 운휴 및 대기시간 정보를 확인해주세요.", link: "/sub03" },
     { id: 3, tit: "멤버십", con: "할인 및 프로모션 안내", des: "다양한 프로모션과 이벤트를 확인해보세요.", link: "/sub04" }
   ];
+  const [on, setOn] = useState(false)
   return (
     <Wrapper>
-      <Header />
+      <Header on={on} setOn={setOn} />
       <Routes>
         <Route path='/' element={<Main content={MAINSLIDRE} />} />
 
@@ -39,6 +41,7 @@ const App = () => {
 
       <Footer />
       <Totop />
+      <Mopen on={on} setOn={setOn} />
     </Wrapper>
   );
 }

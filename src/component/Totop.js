@@ -24,6 +24,25 @@ const Btn = styled.div`
         visibility:visible;
         opacity:1;
     }
+    @media (max-width: 768px) {  position: fixed;
+        bottom: 30px;
+        right:30px;
+        color: #fff;
+        background: #f5a100;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 50%;
+        visibility:hidden;
+        opacity:0;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            color: #333;
+        }
+        &.on {
+            visibility:visible;
+            opacity:1;
+        }}
 `
 
 const Totop = () => {

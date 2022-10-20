@@ -4,8 +4,8 @@ import MainContent from './MainContent';
 import Portfolio from './Portfolio';
 import News from './News';
 import Promotion from './Promotion';
-
 import '../css/Main.scss';
+
 
 const Main = () => {
 
@@ -16,6 +16,7 @@ const Main = () => {
             <Portfolio />
             <News />
             <Promotion />
+        
         </main>
     )
 }

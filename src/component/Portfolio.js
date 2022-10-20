@@ -29,8 +29,11 @@ const Portfolio = () => {
         setRSS(RS.current);
     }, [])
 
+
     return (
         <section className="Portfolio csc">
+            <h2>에버랜드 즐길거리 소개</h2>
+            <p>다양한 즐길거리가 있는 꿈과 환상의 나라 에버랜드 !</p>
             <div className="container">
                 <div className="left">
                     <div className="slide">
@@ -39,6 +42,19 @@ const Portfolio = () => {
                             ref={LS}
                             asNavFor={RSS}
                             arrows={false}
+                            responsive={
+                                [
+                                    {
+                                        breakpoint: 768,
+                                        settings: {
+                                            slidesToShow: 1,
+                                            autoplay: true,
+                                            infinite: true,
+
+                                        }
+                                    }
+                                ]}
+
                         >
                             {
                                 PTF.map(building => {
@@ -68,6 +84,21 @@ const Portfolio = () => {
                             ref={RS}
                             asNavFor={LSS}
                             arrows={false}
+                            responsive={
+                                [
+                                    {
+                                        breakpoint: 768,
+                                        settings: {
+                                            slidesToShow: 1,
+
+                                            infinite: true,
+
+                                        }
+                                    }
+                                ]}
+
+
+
                         >
                             {
                                 NPTF.map(building => {
