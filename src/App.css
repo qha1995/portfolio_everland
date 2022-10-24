@@ -6,11 +6,18 @@
   --gc: #dddddd;
 }
 
+.Gnb {
+  position: relative;
+  width: 1500px;
+  margin: 0 auto;
+}
+
 .inner {
   position: relative;
   width: 1200px;
   margin: 0 auto;
 }
+
 
 .cbtn {
   display: inline-block;
