@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_everland/static/css/main.4b2c7fa3.css",
+    "main.css": "/portfolio_everland/static/css/main.628396f4.css",
     "main.js": "/portfolio_everland/static/js/main.1c11a5ee.js",
     "static/media/MainVisual03.jpg": "/portfolio_everland/static/media/MainVisual03.e26510736e4101c13d90.jpg",
     "static/media/MainVisual02.jpg": "/portfolio_everland/static/media/MainVisual02.05519e34ef3e05868044.jpg",
@@ -8,11 +8,11 @@
     "static/media/section4_bg.jpg": "/portfolio_everland/static/media/section4_bg.0d1f1f76b075c8133597.jpg",
     "static/media/section1_bg.jpg": "/portfolio_everland/static/media/section1_bg.a8be917c257cf6d3ff1b.jpg",
     "index.html": "/portfolio_everland/index.html",
-    "main.4b2c7fa3.css.map": "/portfolio_everland/static/css/main.4b2c7fa3.css.map",
+    "main.628396f4.css.map": "/portfolio_everland/static/css/main.628396f4.css.map",
     "main.1c11a5ee.js.map": "/portfolio_everland/static/js/main.1c11a5ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b2c7fa3.css",
+    "static/css/main.628396f4.css",
     "static/js/main.1c11a5ee.js"
   ]
 }
